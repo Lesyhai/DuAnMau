@@ -1,0 +1,611 @@
+/* Mobile */
+@media (max-width: 429px){
+    body{
+        width: 100%;
+    }
+    .menu-top{
+      display: none;
+    }
+    .logo-menu-button .logo{
+        width: 50%;
+    }
+    .logo-menu-button .logo img{
+        width: 130px;
+        height: 30px;
+    }
+    .logo{
+        margin-top: -30px;
+    }
+    .menu-c{
+        display: none;
+    }
+    .button-menu{
+        display: none;
+    }
+    .button-a{
+        margin-right: 650px;
+        clip-path: none;
+        width: 300px;
+        padding-left:5px;
+        font-size: 15px;
+    }
+    .logo-menu-button{
+        width: 70%;
+    }
+    .driver .title {
+        margin-left: 20px;
+    }
+    .driver .title h3{
+        width: 550px;
+        font-size: 17px;
+    }
+    .driver .title h1{
+        width: 400px;
+    }
+    .driver .title p{
+        width: 400px;
+    }
+    .title h3 {
+        color: #fa4216;
+         font-size: 20px;
+    }
+    .title h1{
+        width: 650px;
+        padding: 20px 0;
+        color: #ffff; 
+        font-size: 30px;
+    }
+    .title{
+        position: relative;
+        animation-name:title ;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        margin-top: -100px;
+    }
+    @keyframes title{
+        0%{
+            right: 300px;
+        }
+        100%{
+            right: 1px;
+        }
+        }
+    .title p{
+        width: 500px;
+        color: #ffff;
+    }
+    .title button{
+        margin-top: 20px;
+        width: 170px;
+        height: 50px;
+        background-color: dodgerblue;
+        color: #ffff;
+        border: none;
+    }
+    .title button:hover{
+        background-color: #fa4216;
+        transition: 1s;
+    }
+    .truck-red{
+        margin-top: 150px;
+        left: -600px;
+        position: relative;
+        width: 80%;
+        animation-name:truck-right ;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        }
+        @keyframes truck-right{
+        0%{
+            left: 10px;
+        }
+        100%{
+            right: 0px;
+        }
+        }
+        .truck-red img{
+            width: 90%;
+        }
+    .speciailist{
+        margin-top: 400px;
+
+    }
+    .title-speciailist{
+       margin-left: -1000px;
+       padding-right: 10px;
+    }
+    .title-speciailist h3{
+        font-size: 17px;
+    }
+    .title-speciailist h2{
+        font-size: 33px;
+    }
+    .speciailist-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: -20px;
+        padding: 0 15px;
+    }
+    #mb{
+        right: 20px;
+        margin-top: 380px;
+    }
+    .content-on{
+        margin-bottom: 100px;
+    }
+    .content-on img{
+        width: 370px;
+    }
+    .content-on .content-text{
+        width: 340px;
+        margin-left: 15px;
+       margin-top: 35px;
+       height: 340px;
+       clip-path: none;
+    }
+    .content-on .text-c{
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+    .content-on .content-text button{
+        width: 170px;
+    }
+    .back-button{
+        display: none;
+    }
+    .bottom-speciailist{
+        margin-right: 600px;
+        text-align: center;
+        display: block;
+        margin-left: 13px;
+    }
+    .bottom-speciailist p{
+        width: 430px;
+    }
+    .bottom-speciailist button{
+        margin-top: 10px;
+        margin-left: -400px;
+    }
+    .workforce{
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width:60%;
+        padding-left: 80px;
+    }
+    .workforce .img{
+        margin-bottom: 50px;
+    }
+    .workforce .img #ng{
+        width: 400px;
+        height: 400px;
+        right: 1000px;
+        left: 20px;
+        animation-name:ng ;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+    @keyframes ng{
+    0%{
+        left: -50px;
+    }
+    100%{
+        right: 0;
+    }
+}
+    .workforce .img #mt{
+        right: 900px;
+        top: -100px;
+        left: -250px;
+        animation-name: mt;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+    @keyframes mt{
+    0%{
+        left: -400px;
+    }
+    100%{
+        left: -250px;
+    }
+}
+    .workforce .img #ck{
+        right: 984px;
+        bottom: 850px;
+        left: 280px;
+        animation-name:ck;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+    @keyframes ck{
+    0%{
+        left: -300px;
+    }
+    100%{
+        left: 280px;
+    }
+}
+    .workforce .img span{
+        right: 250px;
+        bottom: 100px;
+        left: -260px;
+        animation-name:span-ce;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+    @keyframes span-ce{
+    0%{
+        left: -500px;
+    }
+    100%{
+        left: -260px;
+    }
+}
+    .workforce .workforce-content-o{
+        width: 90%;
+    }
+    .workforce-content-t{
+        width: 90%;
+        gap: 5px;
+    }
+    .directory{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2px;
+        margin-top: 100px;
+        width: 100%;
+    }
+    .Together-title{
+        margin-left: 90px;
+    }
+    .Together-number{
+        background-image: url(./img/map.png);
+        height: 470px;
+        width: 1240px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 100px;
+        padding-left: 90px;
+        gap: 30px;
+    }
+    .Together{
+        width: 90%;
+    }
+    .Together-text-bottom{
+        margin-top: 500px;
+        margin-left: -13px;
+        width: 450px;
+    }
+    .Together-text-bottom p{
+        font-size: 18px;
+    }
+    .Potential{
+        position: absolute;
+        padding-top: 150px;
+        width: 1300px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+        gap: 20px;
+        padding-left: 100px;
+    }
+    .Potential-Text{
+        margin-left: -80px;
+    }
+    .Potential-Text h2{
+        width: 400px;
+        font-size: 29px;
+    }
+    .Potential-Text p{
+        font-size: 18px;
+        width: 420px;
+        text-align: justify;
+    }
+    .Potential-input{
+        margin-left: -95px;
+        margin-top: 30px;
+        height: 750px;
+        width: 420px;
+    }
+    .Potential-input-o select{
+        margin-top: 15px;
+        width: 360px;
+        height: 50px;
+       
+    }
+    .Potential-input-range{
+        margin-left: 10px;
+    }
+    .Potential-input-range h2{
+        padding-left:30px ;
+    }
+    .Potential-input-p{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 20px;
+    }
+    .Potential-input-p input{
+        width: 350px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #494d62;
+        border: none;
+        padding-left: 10px;
+        margin-top: 15px;
+    }
+    .Potential-button p{
+        width: 400px;
+    }
+
+    .truck-blue{
+        display: none;
+    }
+        .slick-up{
+        padding-top: 1450px;
+        width: 95%;
+        }
+        .img-slick-up  img{
+            width: 200px;
+            display: none;
+        }
+        .list-item-slick-up{
+            margin-left: 20px;
+            padding-top: 20px;
+        }
+        .slick-dots{
+            position: absolute;
+            right: 0;
+            top:0%;
+            padding-top: 270px;
+            padding-right: 120px;
+            display: flex !important;
+            gap: 20px;
+        
+        }
+        .title-slick-bottom{
+        margin-top: 150px;
+         margin: 0 auto;
+         width: 560px;
+         text-align: center;
+         margin-top: 150px;
+        }
+        .workforce-content {
+            margin-left: -70px;
+        }
+        .workforce-content .workforce-content-o #tt{
+            font-size: 20px;
+        }
+        .workforce-content .workforce-content-o h2{
+            font-size: 30px;
+            width: 450px;
+        }
+        .workforce-content .workforce-content-o #ct{
+            font-size: 20px;
+            width: 430px;
+        }
+        .workforce-content-t{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            width: 420px;
+            font-size: 15px;
+        }
+        .workforce-button{
+            display: grid;
+            grid-template-columns: 0.5fr 2fr;
+            gap: 20px;
+            position: relative;
+        }
+        .Looking{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            height: 230px;
+        }
+
+        .Looking .text-looking {
+            margin-left: -90px;
+            width: 435px;
+            margin-bottom: 30px;
+        }
+        .Looking button{
+            margin-left: -90px;
+        }
+        .footer{
+            background-image: url(./img/f-bg3.jpg);
+            width: 100%;
+            height: 1300px;
+        }
+        .footer-content{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            padding: 50px 30px;
+            gap: 50px;
+        }
+        
+
+}
+
+
+
+
+
+/* Tablet */
+@media (min-width: 430px) and (max-width: 835px){
+    body{
+        width: 100%;
+    }
+    .menu-top{
+      display: none;
+    }
+    .menu-c{
+        display: none;
+    }
+    .button-menu{
+        display: none;
+    }
+
+    .button-a{
+        clip-path: none;
+        width: 200px;
+        padding-left: 10px;
+        margin-right: 250px;
+    }
+    .logo-menu-button{
+        width: 70%;
+    }
+    .driver .title{
+        margin-left: 20px;
+    }
+    .speciailist{
+        margin-top: 200px;
+        width: 100%;
+    }
+    .title-speciailist{
+        margin-right: 530px;
+    }
+    .speciailist-content{
+        display: grid;
+        grid-template-columns: repeat(2,0.3fr);
+        margin-left: -35px;
+        padding: 0 15px;
+    }
+    .speciailist-content #oto{
+        margin-top: 100px;
+        left: 230px;
+    }
+    #mb{
+        right: 20px;
+        margin-top: 380px;
+    }
+    .content-on img{
+        width: 370px;
+    }
+    .content-on .content-text{
+        width: 340px;
+        margin-left: 15px;
+       margin-top: 35px;
+       height: 340px;
+       clip-path: none;
+    }
+    .content-on .text-c{
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+    .content-on .content-text button{
+        width: 170px;
+    }
+    .back-button{
+        display: none;
+    }
+    .bottom-speciailist{
+        margin-right: 600px;
+    }
+    .workforce{
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width:60%;
+        padding-left: 80px;
+    }
+    .workforce .img{
+        margin-bottom: 50px;
+    }
+    .workforce .workforce-content-o{
+        width: 90%;
+    }
+    .workforce-content-t{
+        width: 90%;
+        gap: 5px;
+    }
+    .directory{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2px;
+        margin-top: 100px;
+        width: 100%;
+    }
+    .Together-title{
+        margin-left: 90px;
+    }
+    .Together-number{
+        background-image: url(./img/map.png);
+        height: 470px;
+        width: 1240px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2,0.3fr);
+        padding-top: 100px;
+        padding-left: 130px;
+        gap: 30px;
+    }
+    .Together{
+        width: 90%;
+    }
+    .Together-text-bottom{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    .Potential{
+        position: absolute;
+        padding-top: 150px;
+        width: 1300px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+        gap: 20px;
+        padding-left: 100px;
+    }
+    .Potential-Text h2{
+        width: 800px;
+    }
+    .Potential-Text p{
+        font-size: 28px;
+    }
+    .Potential-input{
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    .truck-blue{
+        display: none;
+    }
+        .slick-up{
+        padding-top: 1600px;
+        width: 95%;
+        }
+        .img-slick-up  img{
+            width: 200px;
+        }
+        .list-item-slick-up{
+            margin-left: 220px;
+            padding-top: 20px;
+        }
+        .title-slick-bottom{
+            margin-top: 150px;
+         margin: 0 auto;
+         width: 560px;
+         text-align: center;
+         margin-top: 150px;
+        }
+        .footer{
+            background-image: url(./img/f-bg3.jpg);
+            width: 100%;
+            height: 750px;
+        }
+        .footer-content{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            padding: 50px 150px;
+            gap: 50px;
+        }
+        .Looking{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background-color: #0f0f35;
+            margin-top: 100px;
+            height: 150px;
+            gap: 50px;
+        }
+    }
+
